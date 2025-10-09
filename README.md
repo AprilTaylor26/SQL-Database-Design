@@ -1,4 +1,4 @@
-#SQL Database Design Project
+# SQL Database Design Project
 
 This project contains a series of SQL scripts developed as part of a database design course. The goal of this project 
 is to demonstrate proficieny in creating, manipulating, and verifying relational database structures using SQL.
