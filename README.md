@@ -17,6 +17,6 @@ The scripts in this repo showcase:
 # How to Use
 -Clone the repository
 -Open scripts in your preferred SQL editor
--Run 'ProjectDatabaseDesign.sql' to set up the initial schema
+-Run 'ProjectBuildScript.sql' to set up the initial schema
 -Use display and manipulation scripts to interact with the database
 
