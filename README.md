@@ -1,22 +1,66 @@
-# SQL Database Design Project
+# SQL Database Design & Relational Modeling Project
 
-This project contains a series of SQL scripts developed as part of a database design course. The goal of this project 
-is to demonstrate proficieny in creating, manipulating, and verifying relational database structures using SQL.
+## Overview
+This repository contains a structured set of SQL scripts designed to model, modify, and analyze a relational database for a gaming platform.  
 
-# Project Overview
-The scripts in this repo showcase:
--Creation and deletion of database structures
--Implementation of referential integrirty constraints
--Display and manipulation of relational data
--Varification of database state and schema alterations
+The project demonstrates practical application of relational database design principles, referential integrity enforcement, and analytical querying using SQL.
 
-# Technologies Used
--SQL (MySQL)
--GitHub for version control
+---
 
-# How to Use
--Clone the repository
--Open scripts in your preferred SQL editor
--Run 'ProjectBuildScript.sql' to set up the initial schema
--Use display and manipulation scripts to interact with the database
+## Key Concepts Demonstrated
 
+- Relational schema design and normalization
+- Primary and composite key implementation
+- Foreign key constraints and referential integrity
+- Schema modification using ALTER TABLE
+- Creation of database views for reporting
+- Aggregation, grouping, and set operations (UNION, INTERSECT)
+- Anti-joins and outer joins
+- Data validation and constraint management
+
+---
+
+## Repository Structure
+
+- **ProjectBuildScript.sql**  
+  Creates the initial database schema and base tables.
+
+- **addReferentialIntegrity.sql**  
+  Implements foreign key constraints and enforces relational dependencies.
+
+- **manipulateDBstructure.sql**  
+  Modifies schema objects and inserts structured test data.
+
+- **displayRelationalData.sql**  
+  Demonstrates multi-table joins, aggregations, and analytical queries.
+
+- **displayAssortedData.sql**  
+  Showcases set operations, anti-joins, and advanced query logic.
+
+---
+
+## Technologies Used
+
+- SQL (Oracle-compatible syntax)
+- Git for version control
+- GitHub for repository management
+
+---
+
+## How to Run
+
+1. Clone the repository.
+2. Open the scripts in your preferred SQL environment.
+3. Execute `ProjectBuildScript.sql` to initialize the database schema.
+4. Run referential integrity and manipulation scripts as needed.
+5. Use display scripts to test queries and verify relational behavior.
+
+---
+
+## Purpose
+
+This project was developed to strengthen hands-on skills in relational database modeling and SQL query development, with emphasis on:
+
+- Data integrity
+- Structured schema design
+- Query accuracy and performance awarenes
