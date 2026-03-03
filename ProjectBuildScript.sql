@@ -1,9 +1,3 @@
--- PURPOSE: Create initial tables and data for course project
--- AUTHOR: Haylee Liska
--- DATE: 10/19/2022
--- NOTES: This script only needs to be run once.
-
-
 -- *** Section 1: Create initial tables ***
 
 
@@ -454,5 +448,6 @@ INSERT INTO Orders VALUES
 
 INSERT INTO Orders VALUES
 (12359, 113, 'GAME1', 17.81, TO_DATE('22-AUG-2022','DD-MON-YYYY'));
+
 
 COMMIT;
